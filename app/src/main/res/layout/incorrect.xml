@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.myapplication.TryAgain">
+
+    <View
+        android:id="@+id/x"
+        android:layout_width="328dp"
+        android:layout_height="293dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/x" />
+
+
+    <View
+        android:id="@+id/notThisTime"
+        android:layout_width="371dp"
+        android:layout_height="94dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/not_this_time" />
+
+    <View
+        android:id="@+id/throwingWill"
+        android:layout_width="354dp"
+        android:layout_height="92dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="453dp"
+        android:background="@drawable/throwing_will" />
+
+    <ImageButton
+        android:id="@+id/backArrow"
+        android:layout_width="88dp"
+        android:layout_height="87dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="619dp"
+        android:background="@drawable/backarrow" />
+
+
+</RelativeLayout>

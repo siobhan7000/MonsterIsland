@@ -1,0 +1,116 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:fillViewport="true"
+    tools:context="com.example.myapplication.Achievements">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/back"
+            android:layout_width="match_parent"
+            android:layout_height="1000dp">
+
+            <RelativeLayout
+                android:id="@+id/buttons"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center">
+
+
+                <ImageButton
+                    android:id="@+id/home"
+                    android:layout_width="57dp"
+                    android:layout_height="56dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginLeft="136dp"
+                    android:layout_marginTop="7dp"
+                    android:background="@drawable/home" />
+
+                <ImageView
+                    android:id="@+id/achievementsLogo"
+                    android:layout_width="331dp"
+                    android:layout_height="37dp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="-5dp"
+                    android:layout_marginTop="82dp"
+                    android:background="@drawable/achievements" />
+
+
+            </RelativeLayout>
+
+            <ImageButton
+                android:id="@+id/angerIslandAchievements"
+                android:layout_width="409dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="120dp"
+                android:background="#fff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/anger_island_achievements" />
+
+
+            <ImageButton
+                android:id="@+id/lonelyIslandAchievements"
+                android:layout_width="409dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="320dp"
+                android:background="#fff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/lonely_island_achievements" />
+
+            <ImageButton
+                android:id="@+id/fearIslandAchievements"
+                android:layout_width="409dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="520dp"
+                android:background="#fff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fear_island_achievements" />
+
+            <ImageButton
+                android:id="@+id/sadIslandAchievements"
+                android:layout_width="409dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="720dp"
+                android:background="#fff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sad_island_achievements" />
+
+            <ImageButton
+                android:id="@+id/empathyIslandAchievements"
+                android:layout_width="409dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="920dp"
+                android:background="#fff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/empathy_island_achievements" />
+
+            <ImageButton
+                android:id="@+id/anxietyIslandAchievements"
+                android:layout_width="409dp"
+                android:layout_height="195dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="1120dp"
+                android:background="#fff"
+                android:scaleType="fitCenter"
+                android:src="@drawable/anxiety_island_achievements" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

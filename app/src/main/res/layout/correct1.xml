@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.myapplication.Correct">
+
+    <View
+        android:id="@+id/tick"
+        android:layout_width="328dp"
+        android:layout_height="293dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="26dp"
+        android:background="@drawable/tick" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="339dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_button" />
+
+    <View
+        android:id="@+id/correct"
+        android:layout_width="370dp"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="22dp"
+        android:layout_marginTop="332dp"
+        android:background="@drawable/correct" />
+
+    <View
+        android:id="@+id/superspeed_unlocked"
+        android:layout_width="373dp"
+        android:layout_height="223dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="406dp"
+        android:background="@drawable/superspeed_unlocked" />
+
+    <ImageButton
+        android:id="@+id/arrow"
+        android:layout_width="92dp"
+        android:layout_height="86dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="284dp"
+        android:layout_marginTop="619dp"
+        android:background="@drawable/arrow" />
+
+
+</RelativeLayout>

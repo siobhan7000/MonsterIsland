@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.myapplication.LandingPage">
+
+    <!-- Monsters -->
+
+
+    <!-- Monsters -->
+
+    <View
+        android:id="@+id/logo"
+        android:layout_width="317dp"
+        android:layout_height="158dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="33dp"
+        android:background="@drawable/logo"
+        android:gravity="center_horizontal|top" />
+
+    <View
+        android:id="@+id/landingpage_monsters"
+        android:layout_width="325dp"
+        android:layout_height="318dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="217dp"
+        android:background="@drawable/landingpage_monsters" />
+
+    <ImageButton
+        android:id="@+id/enter"
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="556dp"
+        android:background="#fff"
+        android:scaleType="fitCenter"
+        android:src="@drawable/enter"
+         />
+
+</RelativeLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.myapplication.StoryBoard2">
+
+    <View
+        android:id="@+id/scene2"
+        android:layout_width="match_parent"
+        android:layout_height="505dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="1dp"
+        android:background="@drawable/scene2" />
+
+    <View
+        android:id="@+id/menuBar"
+        android:layout_width="wrap_content"
+        android:layout_height="78dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-20dp"
+        android:layout_marginTop="-8dp"
+        android:background="@drawable/menubar" />
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="339dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_button" />
+
+    <ImageButton
+        android:id="@+id/achievements"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="339dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/trophy" />
+
+    <View
+        android:id="@+id/scene2text"
+        android:layout_width="354dp"
+        android:layout_height="366dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="120dp"
+        android:background="@drawable/scene2text" />
+
+    <ImageButton
+        android:id="@+id/superSpeed"
+        android:layout_width="296dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="549dp"
+        android:background="@drawable/super_speed" />
+
+    <ImageButton
+        android:id="@+id/superSize"
+        android:layout_width="296dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="629dp"
+        android:background="@drawable/super_size" />
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    tools:context="com.example.myapplication.StoryBoard4">
+
+    <ImageButton
+        android:id="@+id/backButton"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginRight="339dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/back_button" />
+
+    <ImageButton
+        android:id="@+id/achievements"
+        android:layout_width="57dp"
+        android:layout_height="56dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="339dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/trophy" />
+
+    <View
+        android:id="@+id/scene4Text"
+        android:layout_width="302dp"
+        android:layout_height="395dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="48dp"
+        android:layout_marginTop="111dp"
+        android:background="@drawable/anger_monster" />
+
+    <ImageButton
+        android:id="@+id/encourageButton"
+        android:layout_width="296dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="55dp"
+        android:layout_marginTop="549dp"
+        android:background="@drawable/encourage_monster" />
+
+    <ImageButton
+        android:id="@+id/throwButton"
+        android:layout_width="296dp"
+        android:layout_height="66dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="56dp"
+        android:layout_marginTop="629dp"
+        android:background="@drawable/throw_monster" />
+
+
+</RelativeLayout>
